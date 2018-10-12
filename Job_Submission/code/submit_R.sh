@@ -20,4 +20,4 @@ module purge
 module load R
 
 # Run R Script
-Rscript progs/R_program.R
+Rscript R_program.R
