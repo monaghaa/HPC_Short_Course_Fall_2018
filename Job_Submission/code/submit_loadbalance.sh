@@ -6,7 +6,7 @@
 #SBATCH --qos=testing
 #SBATCH --partition=shas-testing
 #SBATCH --output=loadbalance_%j.out
-###SBATCH --reservation=tutorial1  
+#SBATCH --reservation=tutorial1  
 
 # Written by:    Andrew Monaghan, 08 March 2018
 # Purpose:     To demonstrate how to submit several jobs using the loadbalance tool
