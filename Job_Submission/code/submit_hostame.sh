@@ -1,10 +1,10 @@
 #!/bin/bash
-#SBATCH --nodes=1						# Number of requested nodes
-#SBATCH --ntasks=1     					# Number of requested cores
-#SBATCH --time=0:01:00					# Max wall time
-#SBATCH --qos=testing					# Specify QOS
-#SBATCH --partition=shas-testing		# Specify Summit Haswell nodes
-#SBATCH --output=hostname_%j.out       	# Rename standard output file
+#SBATCH --nodes=1                       # Number of requested nodes
+#SBATCH --ntasks=1                      # Number of requested tasks
+#SBATCH --time=0:01:00                  # Max wall time
+#SBATCH --qos=testing                   # Specify QOS
+#SBATCH --partition=shas-testing        # Specify Summit Haswell nodes
+#SBATCH --output=hostname_%j.out        # Rename standard output file
 #SBATCH --reservation=tutorial1         # Reservation (only valid during workshop)
 
 
