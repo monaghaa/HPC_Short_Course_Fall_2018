@@ -19,5 +19,8 @@ module purge
 # Load the R module
 module load R
 
+# Change into programs directory
+cd progs
+
 # Run R Script
 Rscript R_program.R

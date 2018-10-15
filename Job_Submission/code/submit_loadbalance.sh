@@ -18,5 +18,7 @@ module load impi
 module load python
 module load loadbalance
 
+cd progs
+
 mpirun lb lb_cmd_file
 
