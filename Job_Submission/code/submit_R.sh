@@ -5,7 +5,7 @@
 #SBATCH --qos=testing				# Specify QOS
 #SBATCH --partition=shas-testing	# Specify Summit Haswell testing nodes
 #SBATCH --output=R_code_%j.out		# Output file name
-#SBATCH --reservation=tutorial1     # Reservation (only valid during workshop)
+#SBATCH --reservation=tutorial2     # Reservation (only valid during workshop)
 
 
 # Written by:	Shelley Knuth, 24 February 2014
