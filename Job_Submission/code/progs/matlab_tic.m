@@ -1,4 +1,4 @@
-%% matlab_tutorial_general_code.m
+%% matlab_tic.m
 % Written by:   Shelley Knuth (shelley.knuth@colorado.edu)
 % Affiliation:  Research Computing, CU-Boulder
 % Date:         24 March 2015
@@ -14,5 +14,5 @@ y = zeros(1,n);
     for i = 1 : n
         y(i) = std(x(1:i));
     end
-    fprintf('\n Normal for: %f secs',toc);
+    fprintf('\n This code ran for: %f secs',toc);
 

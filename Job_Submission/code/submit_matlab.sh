@@ -22,5 +22,5 @@ module load matlab
 
 # Run matlab without a GUI
 cd progs
-matlab -nodisplay -nodesktop -r "clear; matlab_tic;"
+matlab -nodisplay -nodesktop -r "matlab_tic;"
 

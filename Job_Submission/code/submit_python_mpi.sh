@@ -14,7 +14,7 @@
 # purge all existing modules
 module purge
 
-# Load the R module
+# Load the python module
 module load python/3.5.1
 module load intel impi   
 
